@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+
+    width: 100%;
+    height: 100vh;
+
+} */
+.navbar {
+  padding: 20px 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.line {
+  height: 50px;
+  background-color: white;
+  width: 1px;
+}
+.grow-list {
+  padding-right: 200px;
+}
+.list-item {
+  padding-right: 70px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.list>li:first-of-type::after{
+    content: "      v";
+}
+
+.button-small {
+  background-color: #ba0cc5;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border-radius: 7px;
+  border-style: none;
+  font-weight: 30px;
+  font-size: 15px;
+  padding: 5px 20px;
+}
+.hero {
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  height: 86vh;
+  width: 100%;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding:150px 0px;  */
+}
+.hero-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  letter-spacing: 0.90px;
+  color: white;
+  padding: 0px 240px 50px;
+}
+.hero-description {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.hero button {
+  background-color: #ba0cc5;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 15px 20px;
+}
